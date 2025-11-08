@@ -48,7 +48,7 @@ rm ./data/processed/user_logs/*ipaddr*
 rf -rf ./data
 
 # 8. Create a file named ./data/inventory.txt that lists all the files in the subfolders of ./data/processed
-
+find ./processed -type f > ./inventory.txt
 
 ###########################################
 
